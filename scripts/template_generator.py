@@ -4,8 +4,6 @@ import argparse
 def create_paper_template(title, year, tag):
     folder_name = f"{year}/[{tag}]_{title.replace(' ', '-').lower()}"
     base_path = os.path.join("papers", folder_name)
-    print(f"DEBUG: Creating folders at {base_path}")  # 👈 add this
-
 
     os.makedirs(base_path, exist_ok=True)
     os.makedirs(os.path.join(base_path, "notebooks"), exist_ok=True)
