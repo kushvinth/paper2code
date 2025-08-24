@@ -35,4 +35,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     create_paper_template(args.title, args.year, args.tag)
     
-    ## Example uv run template_generator.py --title "Attention Is All You Need" --year 2017 --tag NLP
+    ## Example uv run template_ge.py --title "Attention Is All You Need" --year 2017 --tag NLP
