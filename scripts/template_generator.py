@@ -36,3 +36,4 @@ if __name__ == "__main__":
     create_paper_template(args.title, args.year, args.tag)
     
     ## Example uv run template_ge.py --title "Attention Is All You Need" --year 2017 --tag NLP
+    
